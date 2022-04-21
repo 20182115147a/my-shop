@@ -1,5 +1,6 @@
 .header {
     z-index: 99;
+    position: relative;
     &__store__info {
         &__list {
             @include flex(center,flex-start);
@@ -42,7 +43,6 @@
             @include flex(center,flex-start);   
         }
         
-        position: relative;
     }
     &__logo {
         height: 30px;
@@ -92,7 +92,8 @@
         }
         &:hover .header__big__subnav__container{
             @include flex(unset,unset);
-            width: 100%;
+            width: 100vw;
+            padding-left: 100px;
             background-color:$white-color;
         }
     }

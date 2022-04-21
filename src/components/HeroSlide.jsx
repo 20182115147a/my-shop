@@ -6,7 +6,6 @@ import slider_2 from '../assets/slider_2.webp'
 import slider_3 from '../assets/slider_3.webp'
 import slider_4 from '../assets/slider_4.webp'
 import slider_5 from '../assets/slider_5.webp'
-
 const HeroSlide = () => {
     const slideItems = [slider_1,slider_2,slider_3,slider_4,slider_5];
     SwiperCore.use([Autoplay,Pagination]);
@@ -17,9 +16,11 @@ const HeroSlide = () => {
                 <div className="slider__container">
                         <Swiper
                         grabCursor={true}
-                        autoplay={{delay:2000}}
+                        autoplay={{delay:2000,
+                            disableOnInteraction: false}}
                         pagination={{
-                            clickable: true
+                            clickable: true,
+                            
                           }}
                         >
                     {

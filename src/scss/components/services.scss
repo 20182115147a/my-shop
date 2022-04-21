@@ -1,0 +1,22 @@
+.services {
+    display: grid;
+    padding:17px 0;
+    &__item {
+        @include flex(center,flex-start);
+        & > * > * {
+            padding-left: 10px;
+        }
+        & img {
+            height: 50px;
+        }
+    }
+    &__right {
+        line-height:1.7;
+        &__title {
+            font-size: 16px;
+        }
+        &__sumary {
+            font-size: 14px;
+        }
+    }
+}

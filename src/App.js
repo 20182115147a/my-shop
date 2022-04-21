@@ -3,8 +3,7 @@ import './assets/fontawesome-free-6.1.1-web/css/all.min.css'
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import '../node_modules/swiper/swiper.scss'
-
-import '../node_modules/swiper/swiper.min.css'
+import '../node_modules/swiper/modules/pagination/pagination.scss'
 function App() {
   return (
    <BrowserRouter>

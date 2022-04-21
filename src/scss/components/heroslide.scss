@@ -5,4 +5,14 @@
        background-repeat: no-repeat;
        background-size: cover;
     }
+    .swiper-pagination-bullet {
+        background-color:$white-color;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        
+        background-color:$main-color;
+        border:1px solid $white-color;
+        
+    }
 }
