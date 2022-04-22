@@ -4,11 +4,13 @@ import ser_1 from '../assets/ser_1.webp';
 import ser_2 from '../assets/ser_2.webp';
 import ser_3 from '../assets/ser_3.webp';
 import ser_4 from '../assets/ser_4.webp';
+import ProductsSlide from '../components/ProductsSlide'
 const Home = () => {
     return (
        <div className="home">
             <HeroSlide></HeroSlide>
             <Services></Services>
+            <ProductsSlide></ProductsSlide>
        </div>
     )
 }

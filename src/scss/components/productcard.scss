@@ -1,0 +1,49 @@
+.product__card {
+    overflow: hidden;
+    position: relative;
+    a {
+        overflow: hidden;
+    }
+    &__img {
+        padding-top: 100%;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        transition: transform .3s ease;
+        overflow: hidden;
+        &__container {
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        &:hover {
+            transform:scale(1.1)
+        }
+        &__icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: $white-color;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            @include flex(center,center);
+        }
+       }
+    &__info {
+        &__name {
+            font-weight: 500;
+            font-size: 13px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-bottom: 5px;
+            &:hover a, &:hover{
+                color: $main-color;
+            }
+        }
+        &__price {
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}

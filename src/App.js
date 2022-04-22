@@ -4,6 +4,7 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import '../node_modules/swiper/swiper.scss'
 import '../node_modules/swiper/modules/pagination/pagination.scss'
+import '../node_modules/swiper/modules/navigation/navigation.scss'
 function App() {
   return (
    <BrowserRouter>
