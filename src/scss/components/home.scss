@@ -1,0 +1,21 @@
+.home {
+    section {
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 400;
+            color: $main-color;
+            text-transform: uppercase;
+        }
+        .btns {
+            margin-top: 20px;
+            text-align: center;
+            .btn:hover {
+                color: $main-color;
+                border:1px solid $main-color;
+                background-color: $white-color;
+                cursor: pointer;
+            }
+        }
+    }
+}
