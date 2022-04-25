@@ -146,6 +146,30 @@ import polo_nu_coolmax_40_whitebrown from '../assets/polo-nu-coolmax-40-whitebro
 import polo_nu_coolmax_41_pink from '../assets/polo-nu-coolmax-41-pink.webp';
 import polo_nu_coolmax_41_black from '../assets/polo-nu-coolmax-41-black.webp';
 import polo_nu_coolmax_41_white from '../assets/polo-nu-coolmax-41-white.webp';
+
+import polo_nu_airycool_42_red from '../assets/polo-nu-airycool-42-red.webp';
+import polo_nu_airycool_42_pink from '../assets/polo-nu-airycool-42-pink.webp';
+import polo_nu_airycool_42_white from '../assets/polo-nu-airycool-42-white.webp';
+
+import polo_nam_airycool_43_red from '../assets/polo-nam-airycool-43-red.webp';
+import polo_nam_airycool_43_black from '../assets/polo-nam-airycool-43-black.webp';
+import polo_nam_airycool_43_white from '../assets/polo-nam-airycool-43-white.webp';
+
+import polo_nam_vohau_44_black from '../assets/polo-nam-vohau-44-black.jpg'
+
+import polo_nam_vohau_45_navy from '../assets/polo-nam-vohau-45-navy.webp'
+
+import polo_nu_vohau_46_cyan from '../assets/polo-nu-vohau-46-cyan.webp'
+
+import polo_nu_vohau_47_navy from '../assets/polo-nu-vohau-47-navy.webp'
+
+import polo_nu_vohau_48_green from '../assets/polo-nu-vohau-48-green.jpg'
+
+import polo_nam_vohau_49_grey from '../assets/polo-nam-vohau-49-grey.webp'
+
+import polo_nu_vohau_50_yellow from '../assets/polo-nu-vohau-50-yellow.webp'
+
+import polo_nam_vohau_51_white from '../assets/polo-nam-vohau-51-white.webp'
 const products = [
     {
         id:1,
@@ -259,7 +283,7 @@ const products = [
         details: [
             {
                 sizes: ['M','L','XL'],
-                color:'Trắng',
+                color:'Xanh',
                 imgUrls: polo_nam_vohau_5_green
             },
             
@@ -1113,8 +1137,185 @@ const products = [
             }
         ],
         category:'ao'
+    },
+     {
+        id:42,
+        gerder:'nu',
+        name:'Áo Polo Nữ Airycool Bo Kẻ',
+        types:['polo','airycool','bst-xuan-he'],
+        price:289000,
+        details: [
+            {
+                sizes: ['XS','S','XL'],
+                color:'Đỏ',
+                imgUrls: polo_nu_airycool_42_red
+            },
+            {
+                sizes: ['S','M','L'],
+                color:'Trắng',
+                imgUrls:polo_nu_airycool_42_white
+            },
+            {
+                sizes: ['S','XS','M'],
+                color:'Hồng',
+                imgUrls:polo_nu_airycool_42_pink
+            }
+        ],
+        category:'ao'
+    },
+    {
+        id:43,
+        gerder:'nam',
+        name:'Áo Polo Nam Airycool Bo Kẻ',
+        types:['polo','airycool','bst-xuan-he'],
+        price:299000,
+        details: [
+            {
+                sizes: ['S','L','XL'],
+                color:'Đỏ',
+                imgUrls: polo_nam_airycool_43_red
+            },
+            {
+                sizes: ['M','L','XL'],
+                color:'Trắng',
+                imgUrls:polo_nam_airycool_43_white
+            },
+            {
+                sizes: ['XL','2XL','3XL'],
+                color:'Đen',
+                imgUrls:polo_nam_airycool_43_black
+            }
+        ],
+        category:'ao'
+    },
+    {
+        id:44,
+        gerder:'nam',
+        name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Tàn Đậm',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:399000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Đen',
+                imgUrls: polo_nam_vohau_44_black
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:45,
+        gerder:'nam',
+        name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Navy',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:339000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Navy',
+                imgUrls: polo_nam_vohau_45_navy
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:46,
+        gerder:'nu',
+        name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh Biển',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:299000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Xanh Biển',
+                imgUrls: polo_nu_vohau_46_cyan
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:47,
+        gerder:'nu',
+        name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Navy',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:299000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Navy',
+                imgUrls: polo_nu_vohau_47_navy
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:48,
+        gerder:'nu',
+        name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh lá',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:299000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Xanh lá',
+                imgUrls: polo_nu_vohau_48_green
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:49,
+        gerder:'nam',
+        name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Xám',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:339000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Xám',
+                imgUrls: polo_nam_vohau_49_grey
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:50,
+        gerder:'nu',
+        name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Vàng',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:299000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Vàng',
+                imgUrls: polo_nu_vohau_50_yellow
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:51,
+        gerder:'nam',
+        name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Trắng',
+        types:['polo','vo-hau','bst-xuan-he'],
+        price:339000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Trắng',
+                imgUrls: polo_nam_vohau_51_white
+            },
+            
+        ],
+        category:'ao'
     }
-
 
 ]
 export  {products}
