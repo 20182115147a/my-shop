@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from 'react-redux'
 import ButtonGroup from "../components/ButtonGroup";
 import ProductCard from "../components/ProductCard";
+import Button from "../components/Button";
+import {Link} from "react-router-dom"
 const ProductsGrid = (props) => {
   const { products } = props;
   const [productList, setProductList] = useState(null);
@@ -29,6 +31,7 @@ const ProductsGrid = (props) => {
             ))
           : null}
       </div>
+      <Button><Link to={`products/${changeCollections.typeCollection}`}>Xem thêm</Link></Button>
     </div>
   );
 };

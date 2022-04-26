@@ -1,10 +1,10 @@
 import React from 'react'
 import { OutlineButton } from './Button'
-import { useDispatch } from 'react-redux'
+import { useDispatch,useSelector } from 'react-redux'
 import { collectionChange } from '../features/collections/changeCollectionsSlice'
 const ButtonGroup = props => {
     const dispatch = useDispatch()
-
+    const typeCollection = useSelector(state => state.changeCollections.typeCollection)
     const bts = [
         {
             type: 'cafe',
@@ -43,7 +43,9 @@ const ButtonGroup = props => {
         <div className="btns-group">
             {
                 bts.map((btn,index)=> (
-                    <OutlineButton  key={index} onClick = {() => dispatch(collectionChange({typeCollection: btn.type}))}>{btn.title}</OutlineButton>
+                    <OutlineButton  key={index} onClick = {() => dispatch(collectionChange({typeCollection: btn.type}))} 
+                    className = {typeCollection === btn.type ? 'active' : ''}
+                    >{btn.title}</OutlineButton>
                     // <button  key={index} onClick = {() => dispatch(collectionChange({typeCollection: btn.type}))}>{btn.title}</button>
                 ))
             }
