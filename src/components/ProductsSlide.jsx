@@ -26,7 +26,7 @@ const ProuductsSlide = (props) => {
               prevEl: ".products-slide-btn-prev",
             }}
           >
-            {products.slice(40).map((product, index) => (
+            {products.slice(0,12).map((product, index) => (
               <SwiperSlide key={index}>
                 <ProductCard
                   imgUrls={product.details[0].imgUrls}

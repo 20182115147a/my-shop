@@ -170,12 +170,50 @@ import polo_nam_vohau_49_grey from '../assets/polo-nam-vohau-49-grey.webp'
 import polo_nu_vohau_50_yellow from '../assets/polo-nu-vohau-50-yellow.webp'
 
 import polo_nam_vohau_51_white from '../assets/polo-nam-vohau-51-white.webp'
+
+import polo_nu_compact_52_cyan from '../assets/polo-nu-compact-52-cyan.webp'
+
+import polo_nu_compact_53_turquoise from '../assets/polo-nu-compact-53-turquoise.webp'
+
+import polo_nu_compact_54_blueblack from '../assets/polo-nu-compact-54-blueblack.webp'
+
+import polo_nam_compact_55_turquoise from '../assets/polo-nam-compact-55-turquoise.webp'
+
+import polo_nam_compact_56_blue from '../assets/polo-nam-compact-56-blue.webp'
+
+import polo_nam_compact_57_beige from '../assets/polo-nam-compact-57-beige.webp'
+
+import polo_nam_compact_58_blueblack from '../assets/polo-nam-compact-58-blueblack.webp'
+
+import polo_nu_compact_59_red from '../assets/polo-nu-compact-59-red.webp'
+
+import polo_nu_compact_60_darkblue from '../assets/polo-nu-compact-60_darkblue.webp'
+
+import polo_nam_airmax_61_white from '../assets/polo-nam-airmax-61-white.webp'
+
+import polo_nam_airmax_62_pink from '../assets/polo-nam-airmax-62-pink.webp'
+
+import polo_nam_airmax_63_beige from '../assets/polo-nam-airmax-63-beige.webp'
+
+import polo_nam_airmax_64_black from '../assets/polo-nam-airmax-64-black.webp'
+
+import polo_nu_airmax_65_white from '../assets/polo-nu-airmax-65-white.webp'
+
+import polo_nu_airmax_66_pink from '../assets/polo-nu-airmax-66-pink.webp'
+
+import polo_nu_airmax_67_beige from '../assets/polo-nu-airmax-67-beige.webp'
+
+import polo_nu_airmax_68_black from '../assets/polo-nu-airmax-68-black.webp'
+
+
 const products = [
     {
         id:1,
         gerder:'nu',
         name:'Áo Polo Nữ Cafe Phối Nẹp Siêu Nhẹ Siêu Mát',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price: 399000,
         details: [
             {
@@ -202,7 +240,9 @@ const products = [
         id:2,
         gerder:'nam',
         name:'Áo Polo Nam Pique Mắt Chim Basic Co Giãn Thoáng Khí',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -228,7 +268,9 @@ const products = [
         id:3,
         gerder:'nu',
         name:'Áo Polo Nữ Cafe Phối Màu',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -253,7 +295,9 @@ const products = [
         id:4,
         gerder:'nam',
         name:'Áo Polo Nam Coolmax Thoáng Mát Bo Cổ Phối Màu',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -278,7 +322,9 @@ const products = [
         id:5,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -294,7 +340,9 @@ const products = [
         id:6,
         gerder:'nu',
         name:'Áo Polo Nữ Cafe Phối Bo Chống Tia UV',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -319,7 +367,9 @@ const products = [
         id:7,
         gerder:'nu',
         name:'Áo Polo Nữ Tay Ngắn Pique Mắt Chim Phối Bo Thoáng Khí',
-        types:['polo','mat-chim','bst-xuan-he'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:289000,
         details: [
             {
@@ -344,7 +394,9 @@ const products = [
         id:8,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức ',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:329000,
         details: [
             {
@@ -360,7 +412,9 @@ const products = [
         id:9,
         gerder:'nam',
         name:'Áo Polo Nam Mắt Chim Dáng Suông Họa Tiết Mỏ Neo',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -386,7 +440,9 @@ const products = [
         id:10,
         gerder:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Trắng',
-        types:['polo','askin','bst-xuan-he'],
+        types:'polo',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -402,7 +458,9 @@ const products = [
         id:11,
         gerder:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Vàng',
-        types:['polo','askin','bst-xuan-he'],
+        types:'polo',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -418,7 +476,9 @@ const products = [
         id:12,
         gerder:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Xanh Đậm',
-        types:['polo','askin','bst-xuan-he'],
+        types:'polo',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -434,7 +494,9 @@ const products = [
         id:13,
         gerder:'nu',
         name:'Áo Polo Nữ Airycool Thoáng Khí Thấm Hút Tốt',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -459,7 +521,9 @@ const products = [
         id:14,
         gerder:'nu',
         name:'Áo Polo Nữ Airycool Giữ Form Thoáng Mát',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:289000,
         details: [
             {
@@ -484,7 +548,9 @@ const products = [
         id:15,
         gerder:'nam',
         name:'Áo Polo Nam Airycool Thoáng Khí Thấm Hút Tốt',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -509,7 +575,9 @@ const products = [
         id:16,
         gerder:'nam',
         name:'Áo Polo Nam Airycool Giữ Form Thoáng Mát',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -534,7 +602,9 @@ const products = [
         id:17,
         gerder:'nu',
         name:'Áo Polo Nữ Coolmax Lacoste',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -559,7 +629,9 @@ const products = [
         id:18,
         gerder:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Đỏ',
-        types:['polo','cool-compact','bst-xuan-he'],
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -575,7 +647,9 @@ const products = [
         id:19,
         gerder:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Đỏ',
-        types:['polo','cool-compact','bst-xuan-he'],
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -591,7 +665,9 @@ const products = [
         id:20,
         gerder:'nu',
         name:'Áo Polo Nữ Mắt Chim Dáng Suông Họa Tiết Mỏ Neo',
-        types:['polo','matchim','bst-xuan-he'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -616,7 +692,9 @@ const products = [
         id:21,
         gerder:'nam',
         name:'Áo Polo Nam Cafe Phối Tay Raglan Ngực In Gấu',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:379000,
         details: [
             {
@@ -641,7 +719,9 @@ const products = [
         id:22,
         gerder:'nu',
         name:'Áo Polo Nữ Cafe Phối Tay Raglan Ngực In Gấu',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price: 329000,
         details: [
             {
@@ -668,7 +748,9 @@ const products = [
         id:23,
         gerder:'nam',
         name:'Áo Polo Nam Cafe Dệt Mắt Xích Khử Mùi Vượt Trội',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:379000,
         details: [
             {
@@ -693,7 +775,9 @@ const products = [
         id:24,
         gerder:'nam',
         name:'Áo Polo Nam Cafe Dáng Suông Chống Tia UV',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:379000,
         details: [
             {
@@ -718,7 +802,9 @@ const products = [
         id:25,
         gerder:'nu',
         name:'Áo Polo Nữ Cafe Dáng Suông Chống Tia UV',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price: 329000,
         details: [
             {
@@ -745,7 +831,9 @@ const products = [
         id:26,
         gerder:'nam',
         name:'Áo Polo Nam Cafe Thể Thao Phối Vai',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:379000,
         details: [
             {
@@ -770,7 +858,9 @@ const products = [
         id:27,
         gerder:'nam',
         name:'Áo Polo Nam Cafe Phối Màu Khử Mùi Chống Tia UV',
-        types:['polo','cafe','bst-xuan-he'],
+        types:'polo',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
         price:379000,
         details: [
             {
@@ -795,7 +885,9 @@ const products = [
         id:28,
         gerder:'nam',
         name:'Áo Polo Nam Mắt Chim Thấm Hút Tốt',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -821,7 +913,9 @@ const products = [
         id:29,
         gerder:'nu',
         name:'Áo Polo Nữ Mắt Chim Thấm Hút Tốt',
-        types:['polo','matchim','bst-xuan-he'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:289000,
         details: [
             {
@@ -846,7 +940,9 @@ const products = [
         id:30,
         gerder:'nu',
         name:'Áo Polo Nữ Pique Mắt Chim In Hình Thỏ',
-        types:['polo','matchim','bst-xuan-he'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:329000,
         details: [
             {
@@ -871,7 +967,9 @@ const products = [
         id:31,
         gerder:'nam',
         name:'Áo Polo Nam Mắt Chim Melange Phối Nẹp',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:339000,
         details: [
             {
@@ -897,7 +995,9 @@ const products = [
         id:32,
         gerder:'nu',
         name:'Áo Polo Nữ Mắt Chim Melange Phối Nẹp',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -923,7 +1023,9 @@ const products = [
         id:33,
         gerder:'nu',
         name:'Áo Polo Nữ Pique Mắt Chim Thêu Ngực',
-        types:['polo','bst-xuan-he','mat-chim'],
+        types:'polo',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
         price:289000,
         details: [
             {
@@ -949,7 +1051,9 @@ const products = [
         id:34,
         gerder:'nam',
         name:'Áo Polo Nam Coolmax Lacoste',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -974,7 +1078,9 @@ const products = [
         id:35,
         gerder:'nam',
         name:'Áo Polo Nam Coolmax Phối Bo Kẻ',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -999,7 +1105,9 @@ const products = [
         id:36,
         gerder:'nam',
         name:'Áo Polo Nam Coolmax Phối Ngực',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -1024,7 +1132,9 @@ const products = [
         id:37,
         gerder:'nam',
         name:'Áo Polo Nam Coolmax Phối Vai',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -1049,7 +1159,9 @@ const products = [
         id:38,
         gerder:'nam',
         name:'Áo Polo Nam Ngắn Tay Slimfit Coolmax',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:349000,
         details: [
             {
@@ -1065,7 +1177,9 @@ const products = [
         id:39,
         gerder:'nam',
         name:'Áo Polo Nam Phối Bo Coolmax Thoáng Mát',
-        types:['polo','coolmax','bst-xuan-he'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -1090,7 +1204,9 @@ const products = [
         id:40,
         gerder:'nu',
         name:'Áo Polo Nữ Coolmax Ngắn Tay Phối Bo',
-        types:['polo','bst-xuan-he','coolmax'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:349000,
         details: [
             {
@@ -1116,7 +1232,9 @@ const products = [
         id:41,
         gerder:'nu',
         name:'Áo Polo Nữ Coolmax Phối Bo',
-        types:['polo','bst-xuan-he','coolmax'],
+        types:'polo',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
         price:349000,
         details: [
             {
@@ -1142,7 +1260,9 @@ const products = [
         id:42,
         gerder:'nu',
         name:'Áo Polo Nữ Airycool Bo Kẻ',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:289000,
         details: [
             {
@@ -1167,7 +1287,9 @@ const products = [
         id:43,
         gerder:'nam',
         name:'Áo Polo Nam Airycool Bo Kẻ',
-        types:['polo','airycool','bst-xuan-he'],
+        types:'polo',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -1192,7 +1314,9 @@ const products = [
         id:44,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Tàn Đậm',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:399000,
         details: [
             {
@@ -1208,7 +1332,9 @@ const products = [
         id:45,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Navy',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:339000,
         details: [
             {
@@ -1224,7 +1350,9 @@ const products = [
         id:46,
         gerder:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh Biển',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -1240,7 +1368,9 @@ const products = [
         id:47,
         gerder:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Navy',
-        types:['polo','vo-hau','bst-xuan-he'],
+        types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -1256,7 +1386,9 @@ const products = [
         id:48,
         gerder:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh lá',
-        types:['polo','vo-hau','bst-xuan-he'],
+         types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -1272,7 +1404,9 @@ const products = [
         id:49,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Xám',
-        types:['polo','vo-hau','bst-xuan-he'],
+         types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:339000,
         details: [
             {
@@ -1288,7 +1422,9 @@ const products = [
         id:50,
         gerder:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Vàng',
-        types:['polo','vo-hau','bst-xuan-he'],
+         types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:299000,
         details: [
             {
@@ -1304,7 +1440,9 @@ const products = [
         id:51,
         gerder:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Trắng',
-        types:['polo','vo-hau','bst-xuan-he'],
+         types:'polo',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
         price:339000,
         details: [
             {
@@ -1315,7 +1453,332 @@ const products = [
             
         ],
         category:'ao'
+    },
+    {
+        id:52,
+        gerder:'nu',
+        name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Dương',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Dương',
+                imgUrls: polo_nu_compact_52_cyan
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:53,
+        gerder:'nu',
+        name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Ngọc',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Ngọc',
+                imgUrls: polo_nu_compact_53_turquoise
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:54,
+        gerder:'nu',
+        name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Đen',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Đen',
+                imgUrls: polo_nu_compact_54_blueblack
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:55,
+        gerder:'nam',
+        name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Ngọc',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Ngọc',
+                imgUrls: polo_nam_compact_55_turquoise
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:56,
+        gerder:'nam',
+        name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Dương',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Dương',
+                imgUrls: polo_nam_compact_56_blue
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:57,
+        gerder:'nam',
+        name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Be',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Be',
+                imgUrls: polo_nam_compact_57_beige
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:58,
+        gerder:'nam',
+        name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Đen',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh Đen',
+                imgUrls: polo_nam_compact_58_blueblack
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:59,
+        gerder:'nu',
+        name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Đỏ',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đỏ',
+                imgUrls: polo_nu_compact_59_red
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:60,
+        gerder:'nu',
+        name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh biển đậm',
+        types:'polo',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:360000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Xanh biển đậm',
+                imgUrls: polo_nu_compact_60_darkblue
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:61,
+        gerder:'nam',
+        name:'Áo Polo Nam Airmax In Ngực - Trắng',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Trắng',
+                imgUrls: polo_nam_airmax_61_white
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:62,
+        gerder:'nam',
+        name:'Áo Polo Nam Airmax In Ngực - Hồng',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Hồng',
+                imgUrls: polo_nam_airmax_62_pink
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:63,
+        gerder:'nam',
+        name:'Áo Polo Nam Airmax In Ngực - Be',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Be',
+                imgUrls: polo_nam_airmax_63_beige
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:64,
+        gerder:'nam',
+        name:'Áo Polo Nam Airmax In Ngực - Đen',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: polo_nam_airmax_64_black
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:65,
+        gerder:'nu',
+        name:'Áo Polo Nữ Airmax In Ngực - Trắng',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Trắng',
+                imgUrls: polo_nu_airmax_65_white
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:66,
+        gerder:'nu',
+        name:'Áo Polo Nữ Airmax In Ngực - Hồng',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Hồng',
+                imgUrls: polo_nu_airmax_66_pink
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:67,
+        gerder:'nu',
+        name:'Áo Polo Nữ Airmax In Ngực - Be',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Be',
+                imgUrls: polo_nu_airmax_67_beige
+            },
+            
+        ],
+        category:'ao'
+    },
+    {
+        id:68,
+        gerder:'nu',
+        name:'Áo Polo Nữ Airmax In Ngực - Đen',
+         types:'polo',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: polo_nu_airmax_68_black
+            },
+            
+        ],
+        category:'ao'
     }
+    
+
+
 
 ]
 export  {products}
+
+// import polo_nam_airmax_61_white from '../assets/polo-nam-airmax-61-white.webp'
+
+// import polo_nam_airmax_62_pink from '../assets/polo-nam-airmax-62-pink.webp'
+
+// import polo_nam_airmax_63_beige from '../assets/polo-nam-airmax-63-beige.webp'
+
+// import polo_nam_airmax_64_black from '../assets/polo-nam-airmax-64-black.webp'
+
+// import polo_nu_airmax_65_white from '../assets/polo-nu-airmax-65-white.webp'
+
+// import polo_nu_airmax_66_pink from '../assets/polo-nu-airmax-66-pink.webp'
+
+// import polo_nu_airmax_67_beige from '../assets/polo-nu-airmax-67-beige.webp'
+
+// import polo_nu_airmax_68_black from '../assets/polo-nu-airmax-68-black.webp'

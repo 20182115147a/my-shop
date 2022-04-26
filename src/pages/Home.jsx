@@ -8,6 +8,7 @@ import ser_4 from "../assets/ser_4.webp";
 import ProductsSlide from "../components/ProductsSlide";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
+import ProductsGrid from "../components/ProductsGrid";
 const Home = () => {
   const count = products.length;
   return (
@@ -22,6 +23,10 @@ const Home = () => {
             <Button>Xem tất cả {count} sản phẩm</Button>
           </Link>
         </div>
+      </section>
+      <section className="products-category">
+        <h2 className="section-title">POLO MYSHOP - THOẢI MÁI, TỰ TIN MỌI LÚC MỌI NƠI</h2>
+        <ProductsGrid products={products}></ProductsGrid>
       </section>
     </div>
   );

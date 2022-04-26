@@ -56,6 +56,10 @@ a {
     background-color: $main-color;
     color: $white-color;
 }
+.btn-outline {
+    background-color:$white-color;
+    color: black;
+}
 .clear-fix {
     content: "";
     display: block;

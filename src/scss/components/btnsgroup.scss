@@ -1,0 +1,14 @@
+.btns-group {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom: 20px;
+    .btn {
+        text-transform: uppercase;
+        &:hover {
+            color: $white-color;
+            background-color: $main-color;
+            cursor: pointer;
+        }
+    }
+}
