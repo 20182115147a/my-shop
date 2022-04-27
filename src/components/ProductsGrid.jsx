@@ -15,7 +15,6 @@ const ProductsGrid = (props) => {
     
     setProductList(newProducts);
   }, [ changeCollections.typeCollection,products]);
-  console.log(changeCollections.typeCollection)
   return (
     <div className="container">
       <ButtonGroup></ButtonGroup>
@@ -31,7 +30,9 @@ const ProductsGrid = (props) => {
             ))
           : null}
       </div>
-      <Button><Link to={`products/${changeCollections.typeCollection}`}>Xem thêm</Link></Button>
+      <div className="btns">
+      <Link to={`products/${changeCollections.typeCollection}`}><Button className='more-btn'>Xem thêm</Button></Link>
+      </div>
     </div>
   );
 };
