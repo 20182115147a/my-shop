@@ -1,8 +1,8 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
+import PagesRoutes from './pagesroutes/PagesRoutes'
 import './assets/fontawesome-free-6.1.1-web/css/all.min.css'
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import PagesRoutes from './pagesroutes/PagesRoutes'
 import '../node_modules/swiper/swiper.scss'
 import '../node_modules/swiper/modules/pagination/pagination.scss'
 import '../node_modules/swiper/modules/navigation/navigation.scss'

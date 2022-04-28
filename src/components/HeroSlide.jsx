@@ -1,27 +1,21 @@
 import React from 'react';
 import {Swiper,SwiperSlide} from 'swiper/react';
 import SwiperCore, { Autoplay,Pagination } from 'swiper';
-import slider_1 from '../assets/slider_1.webp'
-import slider_2 from '../assets/slider_2.webp'
-import slider_3 from '../assets/slider_3.webp'
-import slider_4 from '../assets/slider_4.webp'
-import slider_5 from '../assets/slider_5.webp'
-const HeroSlide = () => {
-    const slideItems = [slider_1,slider_2,slider_3,slider_4,slider_5];
-    SwiperCore.use([Autoplay,Pagination]);
+const HeroSlide = props => {
+    const {slideItems} = props
     
+        SwiperCore.use([Autoplay,Pagination]);
     return (
         <div className="section">
             <div className="slider">
                 <div className="slider__container">
                         <Swiper
                         grabCursor={true}
-                        autoplay={{delay:2000,
-                            disableOnInteraction: false}}
-                        pagination={{
-                            clickable: true,
-                            
-                          }}
+                        autoplay={ slideItems.length > 1 ? {delay:2000,
+                            disableOnInteraction: false} : false}
+                        pagination={ {
+                            clickable: true
+                          } }
                         >
                     {
                         slideItems.map((slideItem,index)=> (

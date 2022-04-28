@@ -205,6 +205,41 @@ import polo_nu_airmax_67_beige from '../assets/polo-nu-airmax-67-beige.webp'
 
 import polo_nu_airmax_68_black from '../assets/polo-nu-airmax-68-black.webp'
 
+import jean_nam_airmax_69_black from '../assets/jean_nam_airmax_69_black.webp'
+
+import jean_nam_airmax_70_blue from '../assets/jean_nam_airmax_70_blue.webp'
+
+import jean_nam_cafe_71_grey from '../assets/jean_nam_cafe_71_grey.webp'
+
+import jean_nam_cafe_72_blue from '../assets/jean_nam_cafe_72_blue.webp'
+
+import jean_nam_coolmax_73_black from '../assets/jean_nam_coolmax_73_black.webp'
+
+import jean_nam_coolmax_74_blue from '../assets/jean_nam_coolmax_74_blue.webp'
+
+import jean_nam_airycool_75_black from '../assets/jean_nam_airycool_75_black.webp'
+
+import jean_nam_airycool_76_blue from '../assets/jean_nam_airycool_76_blue.webp'
+
+import jean_nam_vohau_77_blue from '../assets/jean_nam_vohau_77_blue.webp'
+
+import jean_nam_vohau_78_black from '../assets/jean_nam_vohau_78_black.webp'
+
+import eu_nam_askin_79_brown from '../assets/eu_nam_askin_79_brown.webp'
+
+import eu_nam_askin_80_blue from '../assets/eu_nam_askin_80_blue.webp'
+
+import eu_nam_askin_81_grey from '../assets/eu_nam_askin_81_grey.webp'
+
+import eu_nam_askin_82_grey from '../assets/eu_nam_askin_82_grey.webp'
+
+import eu_nam_cafe_83_black from '../assets/eu_nam_cafe_83_black.webp'
+
+import eu_nam_cafe_84_beige from '../assets/eu_nam_cafe_84_beige.webp'
+
+import eu_nam_coolmax_85_brown from '../assets/eu_nam_coolmax_85_brown.webp'
+
+import eu_nam_coolmax_86_black from '../assets/eu_nam_coolmax_86_black.webp'
 
 const products = [
     {
@@ -234,7 +269,8 @@ const products = [
                 imgUrls:polo_nu_cafe_1_brown
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:2,
@@ -262,7 +298,8 @@ const products = [
                 imgUrls:polo_nam_matchim_2_red
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:3,
@@ -289,7 +326,8 @@ const products = [
                 imgUrls:polo_nu_cafe_3_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:4,
@@ -316,7 +354,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_4_green
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:5,
@@ -334,7 +373,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:6,
@@ -361,7 +401,8 @@ const products = [
                 imgUrls:polo_nu_cafe_6_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:7,
@@ -388,7 +429,8 @@ const products = [
                 imgUrls:polo_nu_matchim_7_pink
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:8,
@@ -406,7 +448,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:9,
@@ -434,7 +477,8 @@ const products = [
                 imgUrls:polo_nam_matchim_9_whiteblack
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:10,
@@ -452,7 +496,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:11,
@@ -470,7 +515,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:12,
@@ -488,7 +534,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:13,
@@ -515,7 +562,8 @@ const products = [
                 imgUrls:polo_nu_airycool_13_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:14,
@@ -542,7 +590,8 @@ const products = [
                 imgUrls:polo_nu_airycool_14_black
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:15,
@@ -569,7 +618,8 @@ const products = [
                 imgUrls:polo_nam_airycool_15_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:16,
@@ -596,7 +646,8 @@ const products = [
                 imgUrls:polo_nam_airycool_16_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     }, 
     {
         id:17,
@@ -623,7 +674,8 @@ const products = [
                 imgUrls:polo_nu_coolmax_17_pink
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:18,
@@ -641,7 +693,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:19,
@@ -659,7 +712,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:20,
@@ -686,7 +740,8 @@ const products = [
                 imgUrls: polo_nu_matchim_20_whitebrown
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:21,
@@ -713,7 +768,8 @@ const products = [
                 imgUrls:polo_nam_cafe_21_green
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:22,
@@ -742,7 +798,8 @@ const products = [
                 imgUrls:polo_nu_cafe_22_black
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:23,
@@ -769,7 +826,8 @@ const products = [
                 imgUrls:polo_nam_cafe_23_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:24,
@@ -796,7 +854,8 @@ const products = [
                 imgUrls:polo_nam_cafe_24_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:25,
@@ -825,7 +884,8 @@ const products = [
                 imgUrls:polo_nu_cafe_25_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:26,
@@ -852,7 +912,8 @@ const products = [
                 imgUrls:polo_nam_cafe_26_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:27,
@@ -879,7 +940,8 @@ const products = [
                 imgUrls:polo_nam_cafe_27_yellow
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:28,
@@ -907,7 +969,8 @@ const products = [
                 imgUrls:polo_nam_matchim_28_white
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:29,
@@ -934,7 +997,8 @@ const products = [
                 imgUrls: polo_nu_matchim_29_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:30,
@@ -961,7 +1025,8 @@ const products = [
                 imgUrls: polo_nu_matchim_30_cream
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:31,
@@ -989,7 +1054,8 @@ const products = [
                 imgUrls:polo_nam_matchim_31_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:32,
@@ -1017,7 +1083,8 @@ const products = [
                 imgUrls:polo_nu_matchim_32_navy
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:33,
@@ -1045,7 +1112,8 @@ const products = [
                 imgUrls:polo_nu_matchim_33_cream
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:34,
@@ -1072,7 +1140,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_34_black
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:35,
@@ -1099,7 +1168,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_35_black
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:36,
@@ -1126,7 +1196,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_36_whiteblue
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:37,
@@ -1153,7 +1224,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_37_greywhite
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:38,
@@ -1171,7 +1243,8 @@ const products = [
             }
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:39,
@@ -1198,7 +1271,8 @@ const products = [
                 imgUrls:polo_nam_coolmax_39_white
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:40,
@@ -1226,7 +1300,8 @@ const products = [
                 imgUrls:polo_nu_coolmax_40_greywhite
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:41,
@@ -1254,7 +1329,8 @@ const products = [
                 imgUrls:polo_nu_coolmax_41_white
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
      {
         id:42,
@@ -1281,7 +1357,8 @@ const products = [
                 imgUrls:polo_nu_airycool_42_pink
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:43,
@@ -1308,7 +1385,8 @@ const products = [
                 imgUrls:polo_nam_airycool_43_black
             }
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:44,
@@ -1326,7 +1404,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:45,
@@ -1344,7 +1423,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:46,
@@ -1362,7 +1442,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:47,
@@ -1380,7 +1461,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:48,
@@ -1398,7 +1480,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:49,
@@ -1416,7 +1499,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:50,
@@ -1434,7 +1518,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:51,
@@ -1452,7 +1537,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:52,
@@ -1470,7 +1556,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:53,
@@ -1488,7 +1575,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:54,
@@ -1506,7 +1594,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:55,
@@ -1524,7 +1613,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:56,
@@ -1542,7 +1632,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:57,
@@ -1560,7 +1651,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:58,
@@ -1578,7 +1670,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:59,
@@ -1614,7 +1707,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:61,
@@ -1632,7 +1726,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:62,
@@ -1650,7 +1745,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:63,
@@ -1668,7 +1764,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:64,
@@ -1686,7 +1783,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:65,
@@ -1704,7 +1802,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:66,
@@ -1722,7 +1821,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : false
     },
     {
         id:67,
@@ -1740,7 +1840,8 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
     },
     {
         id:68,
@@ -1758,7 +1859,349 @@ const products = [
             },
             
         ],
-        category:'ao'
+        category:'ao',
+        hot : true
+    },
+    {
+        id:69,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Suông Đen Trơn',
+         types:'jean',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:589000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nam_airmax_69_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:70,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Suông Co Giãn Thoáng Mát',
+         types:'jean',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:589000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nam_airmax_70_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:71,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Suông Xám',
+         types:'jean',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xám',
+                imgUrls: jean_nam_cafe_71_grey
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:72,
+        gerder:'nam',
+        name:'Quần Jean Nam Cotton USA SlimFit Bền Màu',
+         types:'jean',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nam_cafe_72_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:73,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Suông Xước Nhẹ',
+         types:'jean',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nam_coolmax_73_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:74,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Đứng Năng Động',
+         types:'jean',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nam_coolmax_74_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:75,
+        gerder:'nam',
+        name:'Quần Jean Nam Slimfit Tối Màu Co Giãn',
+         types:'jean',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nam_airycool_75_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:76,
+        gerder:'nam',
+        name:'Quần Jean Nam Cotton USA Ống Suông Co Giãn Tốt',
+         types:'jean',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nam_airycool_76_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:77,
+        gerder:'nam',
+        name:'Quần Jean Nam Ống Đứng Slimfit Basic',
+         types:'jean',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nam_vohau_77_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:78,
+        gerder:'nam',
+        name:'Quần Jean Nam Slim Fit Lycra Siêu Co Giãn',
+         types:'jean',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nam_vohau_78_black
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:79,
+        gerder:'nam',
+        name:'Quần Tây Nam Ống Đứng Classic Lịch Lãm',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Nâu',
+                imgUrls: eu_nam_askin_79_brown
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:80,
+        gerder:'nam',
+        name:'Quần Tây Nam Nano Công Sở Trẻ Trung',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: eu_nam_askin_80_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:81,
+        gerder:'nam',
+        name:'Quần Tây Nam Nano Ống Đứng Thời Trang',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xám',
+                imgUrls: eu_nam_askin_81_grey
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },{
+        id:82,
+        gerder:'nam',
+        name:'Quần Âu Nam Vải Nano Cao Cấp Giữ Phom, Co Giãn Thoải Mái',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xám',
+                imgUrls: eu_nam_askin_82_grey
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:83,
+        gerder:'nam',
+        name:'Quần Âu Nam Classic Bổ Túi Sườn',
+         types:'eu',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nam_cafe_83_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:84,
+        gerder:'nam',
+        name:'Quần Âu Nam Ống Đứng Vải Nano Melange Giữ Phom Ít Nhăn',
+        types:'eu',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nam_cafe_84_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:85,
+        gerder:'nam',
+        name:'Quần Âu Nam Ống Đứng Vải Nano Cao Cấp Giữ Phom, Co Giãn Thoải Mái',
+         types:'eu',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Nâu',
+                imgUrls: eu_nam_coolmax_85_brown
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:86,
+        gerder:'nam',
+        name:'Quần Tây Nam Công Sở Ống Ôm',
+         types:'eu',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:598000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nam_coolmax_86_black
+            },
+            
+        ],
+        category:'quan',
+        hot : false
     }
     
 

@@ -3,7 +3,6 @@ import {headerMainNavs} from '../fakedata/header-data'
 import logo from '../assets/logo.jpg'
 import Button from '../components/Button'
 const Header = props => {
-    
     return (
         <div className="header">
             <div className="container">

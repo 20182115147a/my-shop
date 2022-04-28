@@ -1,7 +1,9 @@
 .slider {
+    // margin-bottom: 5px;
     &__img {
+    
        padding-top: 30%;
-       background-position: center;
+       background-position: left;
        background-repeat: no-repeat;
        background-size: cover;
     }
@@ -14,5 +16,12 @@
         background-color:$main-color;
         border:1px solid $white-color;
         
+    }
+    .swiper-pagination-bullet:only-child {
+        display: block !important;
+        margin: 0 auto;
+    }
+    .swiper-pagination-lock {
+        display: block ;
     }
 }
