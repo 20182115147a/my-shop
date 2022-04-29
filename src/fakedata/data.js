@@ -241,6 +241,85 @@ import eu_nam_coolmax_85_brown from '../assets/eu_nam_coolmax_85_brown.webp'
 
 import eu_nam_coolmax_86_black from '../assets/eu_nam_coolmax_86_black.webp'
 
+import  jean_nu_airycool_87_blue from '../assets/jean_nu_airycool_87_blue.webp'
+
+import  jean_nu_airycool_88_blue from '../assets/jean_nu_airycool_88_blue.webp'
+
+import  jean_nu_vohau_89_black from '../assets/jean_nu_vohau_89_black.webp'
+
+import  jean_nu_vohau_90_black from '../assets/jean_nu_vohau_90_black.webp'
+
+import  jean_nu_compact_91_blue from '../assets/jean_nu_compact_91_blue.webp'
+
+import  jean_nu_compact_92_black from '../assets/jean_nu_compact_92_black.webp'
+
+import  jean_nu_airmax_93_blue from '../assets/jean_nu_airmax_93_blue.webp'
+
+import  jean_nu_airmax_94_grey from '../assets/jean_nu_airmax_94_grey.webp'
+
+import  jean_nu_askin_95_blue from '../assets/jean_nu_askin_95_blue.webp'
+
+import  jean_nu_askin_96_blue from '../assets/jean_nu_askin_96_blue.webp'
+
+import eu_nu_askin_97_black from '../assets/eu_nu_askin_97_black.webp'
+
+import eu_nu_askin_98_beige from '../assets/eu_nu_askin_98_beige.webp'
+
+import eu_nu_cafe_99_black from '../assets/eu_nu_cafe_99_black.webp'
+
+import eu_nu_cafe_100_beige from '../assets/eu_nu_cafe_100_beige.webp'
+
+import eu_nu_matchim_101_beige from '../assets/eu_nu_matchim_101_beige.webp'
+
+import eu_nu_matchim_102_black from '../assets/eu_nu_matchim_102_black.webp'
+
+import eu_nu_coolmax_103_black from '../assets/eu_nu_coolmax_103_black.webp'
+
+import eu_nu_coolmax_104_beige from '../assets/eu_nu_coolmax_104_beige.webp'
+
+import eu_nu_airycool_105_beige from '../assets/eu_nu_airycool_105_beige.webp'
+
+import eu_nu_airycool_106_red from '../assets/eu_nu_airycool_106_red.webp'
+
+import tshirt_nam_compact_107_white from '../assets/tshirt_nam_compact_107_white.webp'
+
+import tshirt_nam_workout_108_black from '../assets/tshirt_nam_workout_108_black.webp'
+
+import tshirt_nam_compact_109_blue from '../assets/tshirt_nam_compact_109_blue.webp'
+
+import tshirt_nam_askin_110_black from '../assets/tshirt_nam_askin_110_black.webp'
+
+import tshirt_nam_cafe_115_yellow from '../assets/tshirt_nam_cafe_115_yellow.webp'
+
+import tshirt_nam_workout_111_grey from '../assets/tshirt_nam_workout_111_grey.webp'
+
+import tshirt_nam_coolmax_112_black from '../assets/tshirt_nam_coolmax_112_black.webp'
+
+import tshirt_nam_airycool_113_white from '../assets/tshirt_nam_airycool_113_white.webp'
+
+import tshirt_nam_matchim_114_yellow from '../assets/tshirt_nam_matchim_114_yellow.webp'
+
+import tshirt_nam_vohau_116_black from '../assets/tshirt_nam_vohau_116_black.webp'
+
+import tshirt_nu_vohau_117_black from '../assets/tshirt_nu_vohau_117_black.webp'
+
+import tshirt_nu_askin_118_white from '../assets/tshirt_nu_askin_118_white.webp'
+
+import tshirt_nu_vohau_119_black from '../assets/tshirt_nu_vohau_119_black.webp'
+
+import tshirt_nu_coolmax_120_black from '../assets/tshirt_nu_coolmax_120_black.webp'
+
+import tshirt_nu_compact_121_black from '../assets/tshirt_nu_compact_121_black.webp'
+
+import tshirt_nu_airmax_122_black from '../assets/tshirt_nu_airmax_122_black.webp'
+
+import tshirt_nu_coolmax_123_white from '../assets/tshirt_nu_coolmax_123_white.webp'
+
+import tshirt_nu_askin_124_orange from '../assets/tshirt_nu_askin_124_orange.webp'
+
+import tshirt_nu_vohau_125_orange from '../assets/tshirt_nu_vohau_125_orange.webp'
+
+import tshirt_nu_compact_126_brown from '../assets/tshirt_nu_compact_126_brown.webp'
 const products = [
     {
         id:1,
@@ -2202,11 +2281,748 @@ const products = [
         ],
         category:'quan',
         hot : false
+    },
+    {
+        id:87,
+        gerder:'nu',
+        name:'Quần Jean Nữ Baggy Co Giãn Cạp Liền',
+         types:'jean',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_airycool_87_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:88,
+        gerder:'nu',
+        name:'Quần Jean Nữ Lưng Thấp Dáng Skinny',
+         types:'jean',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_airycool_88_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:89,
+        gerder:'nu',
+        name:'Quần Jean Baggy Nữ 9 Tấc',
+         types:'jean',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nu_vohau_89_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:90,
+        gerder:'nu',
+        name:'Quần Jean Nữ Ôm Lưng Thấp',
+         types:'jean',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:359000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nu_vohau_90_black
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:91,
+        gerder:'nu',
+        name:'Quần Jeans Nữ Dáng Skinny Thêu Túi',
+         types:'jean',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359100,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_compact_91_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:92,
+        gerder:'nu',
+        name:'Quần Jean Nữ Lưng Cao Chiết Ly Gấu',
+         types:'jean',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:359200,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: jean_nu_compact_92_black
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:93,
+        gerder:'nu',
+        name:'Quần Jean Nữ Dáng Boy Lưng Thấp Vải Mềm Thoáng Khí',
+         types:'jean',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359300,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_airmax_93_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:94,
+        gerder:'nu',
+        name:'Quần Jean Nữ Lưng Cao Ống Rộng Tôn Dáng Bền Màu',
+         types:'jean',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:359400,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xám',
+                imgUrls: jean_nu_airmax_94_grey
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:95,
+        gerder:'nu',
+        name:'Quần Jean Nữ Baggy Lưng Cao Chiết Ly Gấu',
+        types:'jean',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:359500,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_askin_95_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:96,
+        gerder:'nu',
+        name:'Quần Jean Nữ Ống Suông Xanh Nhạt',
+         types:'jean',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:359600,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Xanh',
+                imgUrls: jean_nu_askin_96_blue
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:97,
+        gerder:'nu',
+        name:'Quần Âu Nữ Cạp Cao Ống Rộng Kèm Đai',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:499000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nu_askin_97_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:98,
+        gerder:'nu',
+        name:'Quần Âu Nữ Cạp Cao Ống Rộng',
+         types:'eu',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:498000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nu_askin_98_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:99,
+        gerder:'nu',
+        name:'Quần Âu Nữ Ống Đứng Thời Trang',
+         types:'eu',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:5460000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nu_cafe_99_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:100,
+        gerder:'nu',
+        name:'Quần Tây Nữ Ống Rộng Lưng Cao Xẻ Gấu',
+         types:'eu',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:410000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nu_cafe_100_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:101,
+        gerder:'nu',
+        name:'Quần Tây Nữ Baggy Công Sở Cạp Cao',
+         types:'eu',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
+        price:399000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nu_matchim_101_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:102,
+        gerder:'nu',
+        name:'Quần Tây Nữ Lưng Cao Đai Vuông',
+         types:'eu',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
+        price:550000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nu_matchim_102_black
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:103,
+        gerder:'nu',
+        name:'Quần Tây Ống Rộng Xẻ Tà Thời Trang',
+         types:'eu',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:410000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đen',
+                imgUrls: eu_nu_coolmax_103_black
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:104,
+        gerder:'nu',
+        name:'Quần Tây Nữ Baggy Đai Phối Chun',
+         types:'eu',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:510000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nu_coolmax_104_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:105,
+        gerder:'nu',
+        name:'Quần Tây Nữ Ống Đứng Công Sở Tôn Dáng',
+         types:'eu',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:415000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Be',
+                imgUrls: eu_nu_airycool_105_beige
+            },
+            
+        ],
+        category:'quan',
+        hot : true
+    },
+    {
+        id:106,
+        gerder:'nu',
+        name:'Quần Tây Nữ Lưng Cao Thắt Đai Eo',
+         types:'eu',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:600000,
+        details: [
+            {
+                sizes: ['30','31','32'],
+                color:'Đỏ',
+                imgUrls: eu_nu_airycool_106_red
+            },
+            
+        ],
+        category:'quan',
+        hot : false
+    },
+    {
+        id:107,
+        gerder:'nam',
+        name:'Áo Thun Nam Suông Cotton Compact In Gấu',
+        types:'t-shirt',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Trắng',
+                imgUrls: tshirt_nam_compact_107_white
+            }
+        ],
+        category:'ao',
+        hot : true
+    },
+    {
+        id:108,
+        gerder:'nam',
+        name:'Áo Thun Nam Thể Thao In Hình Work Out',
+        types:'t-shirt',
+        collection:'workout',
+        big_collection:'bst-xuan-he',
+        price:239000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Đen',
+                imgUrls: tshirt_nam_workout_108_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:109,
+        gerder:'nam',
+        name:'Áo Thun Nam Form Rộng Cotton Compact In Club',
+        types:'t-shirt',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Xanh',
+                imgUrls: tshirt_nam_compact_109_blue
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:110,
+        gerder:'nam',
+        name:'Áo Thun Nam Form Rộng In Chữ Comfortable',
+        types:'t-shirt',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Đen',
+                imgUrls: tshirt_nam_askin_110_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:111,
+        gerder:'nam',
+        name:'Áo Thun Nam Thể Thao Logo In Phản Quang',
+        types:'t-shirt',
+        collection:'workout',
+        big_collection:'bst-xuan-he',
+        price:239000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Xám',
+                imgUrls: tshirt_nam_workout_111_grey
+            }
+        ],
+        category:'ao',
+        hot : false  
+    },
+    {
+        id:112,
+        gerder:'nam',
+        name:'Áo Thun Nam Cotton Dáng Suông Newspaper',
+        types:'t-shirt',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Đen',
+                imgUrls: tshirt_nam_coolmax_112_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:113,
+        gerder:'nam',
+        name:'Áo Thun Nam Cổ Tròn Dáng Suông Classic',
+        types:'t-shirt',
+        collection:'airycool',
+        big_collection:'bst-xuan-he',
+        price:239000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Trắng',
+                imgUrls: tshirt_nam_airycool_113_white
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:114,
+        gerder:'nam',
+        name:'Áo Thun Nam Cotton USA Thoáng Mát In PLEASE',
+        types:'t-shirt',
+        collection:'mat-chim',
+        big_collection:'bst-xuan-he',
+        price:239000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Vàng',
+                imgUrls: tshirt_nam_matchim_114_yellow
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:115,
+        gerder:'nam',
+        name:'Áo Thun Nam Cotton USA In Chữ Stay Positive',
+        types:'t-shirt',
+        collection:'cafe',
+        big_collection:'bst-xuan-he',
+        price:239000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Vàng',
+                imgUrls: tshirt_nam_cafe_115_yellow
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:116,
+        gerder:'nam',
+        name:'Áo Thun Nam Cotton Phi Hành Gia',
+        types:'t-shirt',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['M','L','XL'],
+                color:'Đen',
+                imgUrls: tshirt_nam_vohau_116_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:117,
+        gerder:'nu',
+        name:'Áo Thun Nữ Cotton Cổ Tròn In Chữ Ski Resort',
+        types:'t-shirt',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: tshirt_nu_vohau_117_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:118,
+        gerder:'nu',
+        name:'Áo Thun Nữ Cổ Tròn In Chữ Tay Lơ Vê',
+        types:'t-shirt',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Trắng',
+                imgUrls: tshirt_nu_askin_118_white
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:119,
+        gerder:'nu',
+        name:'Áo Thun Nữ Cotton Tay Lơ Vê Phối Túi Cách Điệu',
+        types:'t-shirt',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: tshirt_nu_vohau_119_black
+            }
+        ],
+        category:'ao',
+        hot : false  
+    },
+    {
+        id:120,
+        gerder:'nu',
+        name:'Áo Thun Nữ Form Rộng In Chữ Comfortable',
+        types:'t-shirt',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:249000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: tshirt_nu_coolmax_120_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:121,
+        gerder:'nu',
+        name:'Áo Thun Nữ Vissco Dáng Ôm Siêu Co Giãn',
+        types:'t-shirt',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: tshirt_nu_compact_121_black
+            }
+        ],
+        category:'ao',
+        hot : false  
+    },
+    {
+        id:122,
+        gerder:'nu',
+        name:'Áo Phông Nữ Cotton Dáng Suông In Family',
+        types:'t-shirt',
+        collection:'airmax',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Đen',
+                imgUrls: tshirt_nu_airmax_122_black
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:123,
+        gerder:'nu',
+        name:'Áo Thun Nữ Cotton Cổ Tròn In Peach',
+        types:'t-shirt',
+        collection:'coolmax',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Trắng',
+                imgUrls: tshirt_nu_coolmax_123_white
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:124,
+        gerder:'nu',
+        name:'Áo Thun Nữ Suông Cổ Tròn In Chữ Mine',
+        types:'t-shirt',
+        collection:'askin',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Cam',
+                imgUrls: tshirt_nu_askin_124_orange
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:125,
+        gerder:'nu',
+        name:'Áo Thun Nữ Vải Iscra Siêu Mềm Mịn',
+        types:'t-shirt',
+        collection:'vo-hau',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Cam',
+                imgUrls: tshirt_nu_vohau_125_orange
+            }
+        ],
+        category:'ao',
+        hot : true  
+    },
+    {
+        id:126,
+        gerder:'nu',
+        name:'Áo Thun Nữ Cotton Cổ Tròn Style',
+        types:'t-shirt',
+        collection:'compact',
+        big_collection:'bst-xuan-he',
+        price:269000,
+        details: [
+            {
+                sizes: ['S','M','L'],
+                color:'Nâu',
+                imgUrls: tshirt_nu_compact_126_brown
+            }
+        ],
+        category:'ao',
+        hot : true  
     }
     
-
-
-
 ]
 export  {products}
 

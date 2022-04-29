@@ -6,9 +6,9 @@ import { changeCategory } from '../features/collections/categorySlice'
 import {useParams} from 'react-router-dom'
 const ButtonGroup = props => {
     const {category} = useParams()
-
+    const {btnState} = props
     const dispatch = useDispatch()
-    const typeCollection = useSelector(state => state.changeCollections.typeCollection)
+    const stateCollection = useSelector(state => state.changeCollections[btnState])
     const categoryState = useSelector(state => state.category.productCategory)
     let bts = null
     if (category === undefined) {
@@ -65,7 +65,7 @@ const ButtonGroup = props => {
     }
    const  onClicked = (btnType) => {
        if (category === undefined) {
-        dispatch(collectionChange({typeCollection: btnType}))
+        dispatch(collectionChange({[btnState]: btnType}))
        }
        else if (category === 'nam' || 'nu') {
         dispatch(changeCategory({productCategory: btnType}))
@@ -76,7 +76,7 @@ const ButtonGroup = props => {
             {
                 bts.map((btn,index)=> (
                     <OutlineButton  key={index} onClick = {() => onClicked(btn.type)} 
-                    className = {category === undefined ? typeCollection === btn.type ? 'active' : '' : categoryState === btn.type ? 'active' : ''}
+                    className = {category === undefined ? stateCollection === btn.type ? 'active' : '' : categoryState === btn.type ? 'active' : ''}
                     >{btn.title}</OutlineButton>
                     // <button  key={index} onClick = {() => dispatch(collectionChange({typeCollection: btn.type}))}>{btn.title}</button>
                 ))

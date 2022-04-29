@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import {Link} from "react-router-dom"
 import {useParams} from 'react-router-dom'
 const ProductsGrid = (props) => {
-  const { products } = props;
+  const { products,btnState } = props;
   const {category} = useParams()
   const [productList, setProductList] = useState(null);
   const changeCollections = useSelector(state => state.changeCollections) 
@@ -15,7 +15,7 @@ const ProductsGrid = (props) => {
   useEffect(() => {
     if(category === undefined) {
       const newProducts = products.filter((product) => {
-        return product.collection === changeCollections.typeCollection;
+        return product.collection === changeCollections[btnState];
       });
       
       setProductList(newProducts);
@@ -34,11 +34,11 @@ const ProductsGrid = (props) => {
         setProductList(newProducts.slice(0,10));
       }
     }
-  }, [ changeCollections.typeCollection,products,category,categoryState.productCategory]);
+  }, [products,category,categoryState.productCategory,btnState,changeCollections]);
   return (
     <div className="products-grid-wrapper">
       <div className="container">
-      <ButtonGroup></ButtonGroup>
+      <ButtonGroup btnState = {btnState}></ButtonGroup>
       <div className="products-grid grid-col-5">
         {productList
           ? productList.map((productItem, index) => (
@@ -52,7 +52,7 @@ const ProductsGrid = (props) => {
             : null}
         </div>
         <div className="btns">
-        <Link to={`/products/${category === undefined ? changeCollections.typeCollection : categoryState.productCategory}`}><Button className='more-btn'>Xem thêm</Button></Link>
+        <Link to={`/collections/${category === undefined ? changeCollections[btnState] : categoryState.productCategory}`}><Button className='more-btn'>Xem thêm</Button></Link>
         </div>
       </div>
     </div>

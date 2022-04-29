@@ -34,7 +34,7 @@ const Header = props => {
                                 <Link to='/'><img src={logo} alt="" className="header__logo" /></Link>
                                 <ul className="header__big__nav">
                                     <li className="header__big__item">
-                                        <Link to='/bst-xuan-he' className='text-second text-highlight'>Xuân hè 2022</Link>
+                                        <Link to='/collections/bst-xuan-he' className='text-second text-highlight'>Xuân hè 2022</Link>
                                     </li>
                                     {headerMainNavs.map((headernav,index) => (
                                         <li className = "header__big__item" key={index}>
@@ -42,11 +42,11 @@ const Header = props => {
                                             <div className="header__big__subnav__container" key={index}>
                                             {headernav.products_type.map((subnav,subindex) => (
                                                     <ul className="header__big__subnav" key={subindex}>
-                                                    <Link to={subnav.path}>{subnav.display}</Link>
+                                                    <Link to={`/collections${subnav.path}`}>{subnav.display}</Link>
                                                     {subnav.category.map((subnavItem,index) => 
                                                     (
                                                         <li className='header__big__subnav__item' key={index}>
-                                                            <Link to={subnavItem.path}>{subnavItem.display}</Link>
+                                                            <Link to={`/collections${subnavItem.path}`}>{subnavItem.display}</Link>
                                                         </li>
                                                     ))}
                                                     </ul>

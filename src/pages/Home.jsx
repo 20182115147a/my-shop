@@ -15,6 +15,9 @@ const Home = () => {
   const count = products.length;
   
   const slideItems = [slider_1,slider_2,slider_3,slider_4,slider_5];
+  const poloProducts = products.filter(product => product.types === 'polo')
+  const pantsProducts = products.filter(product => product.category === 'quan')
+
   return (
     <div className="home">
 
@@ -30,8 +33,12 @@ const Home = () => {
         </div>
       </section>
       <section className="products-category">
-        <h2 className="section-title">POLO MYSHOP - THOẢI MÁI, TỰ TIN MỌI LÚC MỌI NƠI</h2>
-        <ProductsGrid products={products}></ProductsGrid>
+        <h2 className="section-title">Áo Polo - THOẢI MÁI, TỰ TIN MỌI LÚC MỌI NƠI</h2>
+        <ProductsGrid products={poloProducts} btnState = 'typeCollection'></ProductsGrid>
+      </section>
+      <section className="products-category">
+        <h2 className="section-title">Quần Jean Âu - Cá tính thời thượng</h2>
+        <ProductsGrid products={pantsProducts} btnState = 'pantsCollection'></ProductsGrid>
       </section>
     </div>
   );

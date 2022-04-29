@@ -1,0 +1,12 @@
+.collections {
+    padding: 50px 0;
+    .title {
+        text-align: center;
+        color: $main-color;
+        font-weight: 500;
+        text-transform: uppercase;  
+    }
+    &__content {
+        @include flex(flex-start,flex-start);
+    }
+}

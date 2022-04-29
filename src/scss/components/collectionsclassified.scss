@@ -1,0 +1,10 @@
+.collections-classified {
+    flex: 0 0 17.5%;
+    max-width: 17.5%;
+    &__item {
+        &__container {
+            @include flex(flex-start,flex-start);
+            flex-wrap:wrap;
+        }
+    }
+}
