@@ -2,9 +2,101 @@
     flex: 0 0 17.5%;
     max-width: 17.5%;
     &__item {
+        margin-bottom: 30px;
+        width: 260px;
+        overflow: hidden;
+        position: relative;
+        z-index: 999;
+        &.active {
+            .collections-classified__item__container {
+            opacity:1;
+            height: auto;
+            transform: translateY(0);
+            }
+            .collections-classified__item__title__wrapper {
+             i {
+                transform: rotate(180deg)
+             }
+            }
+        }
         &__container {
             @include flex(flex-start,flex-start);
+            overflow: hidden;
             flex-wrap:wrap;
+            gap: 5px;
+            z-index: -1;
+            position: relative;
+            opacity: 0;
+            height:0;
+            transform: translateY(-100%);
+            transition: transform .3s linear, opacity .3s linear;
+          
+        }
+        &:last-child {
+            .collections-classified__item__container {
+                flex-direction: column;
+            }
+            label {
+                margin-left: 5px;
+                cursor: pointer;
+                
+            }
+             .collections-classified__item__subitem {
+                margin-bottom: 10px;
+                @include flex(center,center);
+                z-index: 9;
+                position: relative;
+                cursor: pointer;
+                &:hover {
+                    color: $main-color;
+                }
+             }
+            input {
+                width:20px;
+                height:20px;
+                cursor: pointer;
+                display:inline-block;
+            }
+        }
+        &__title {
+            color : #333;
+            font-weight: 500;
+            font-size: 15px;
+            &__wrapper {
+                @include flex(center,space-between);
+                margin-bottom: 10px;
+                background-color:#ffff;
+                z-index: 99;
+                    cursor: pointer;
+                i {
+                    transition: transform 0.3s ease-in-out;
+                }
+            }
+        }
+        &__subitem {
+            span {
+                width: 20px;
+                height: 20px;
+                border-radius:50%;
+                display: block;
+                margin-right: 5px;
+            }
+            .btn {
+               @include flex(center,flex-start);
+            font-size: 12px;
+            color:#7a7a9d;
+            background-color: #f2f2f2;
+            border: none;
+            
+            border:1px solid #f2f2f2;
+            &:hover {
+                color: $main-color;
+                background-color:$white-color;
+                cursor: pointer;
+                border:1px solid $main-color;
+            }
+           }
+         
         }
     }
 }
