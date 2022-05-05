@@ -38,7 +38,7 @@ const ProuductsSlide = (props) => {
             ))}
             <SwiperSlide>
               <div className="products-slide__all">
-                <Link to="bst-xuan-he" className="text-second">
+                <Link to="collections/bst-xuan-he" className="text-second">
                   Xem tất cả
                 </Link>
               </div>

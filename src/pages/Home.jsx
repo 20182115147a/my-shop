@@ -27,17 +27,17 @@ const Home = () => {
         <h2 className="section-title">Everyday wear</h2>
         <ProductsSlide products={products}></ProductsSlide>
         <div className="btns">
-          <Link to="/bst-xuan-he">
+          <Link to="collections/bst-xuan-he">
             <Button>Xem tất cả {count} sản phẩm</Button>
           </Link>
         </div>
       </section>
       <section className="products-category">
-        <h2 className="section-title">Áo Polo - THOẢI MÁI, TỰ TIN MỌI LÚC MỌI NƠI</h2>
+        <h2 className="section-title">Áo Polo & Thun - THOẢI MÁI, TỰ TIN MỌI LÚC MỌI NƠI</h2>
         <ProductsGrid products={poloProducts} btnState = 'typeCollection'></ProductsGrid>
       </section>
       <section className="products-category">
-        <h2 className="section-title">Quần Jean Âu - Cá tính thời thượng</h2>
+        <h2 className="section-title">Quần Jean & Âu - Cá tính thời thượng</h2>
         <ProductsGrid products={pantsProducts} btnState = 'pantsCollection'></ProductsGrid>
       </section>
     </div>

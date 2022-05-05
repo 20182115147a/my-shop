@@ -323,7 +323,7 @@ import tshirt_nu_compact_126_brown from '../assets/tshirt_nu_compact_126_brown.w
 const products = [
     {
         id:1,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cafe Phối Nẹp Siêu Nhẹ Siêu Mát',
         types:'polo',
         collection:'cafe',
@@ -353,7 +353,7 @@ const products = [
     },
     {
         id:2,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Pique Mắt Chim Basic Co Giãn Thoáng Khí',
         types:'polo',
         collection:'mat-chim',
@@ -382,7 +382,7 @@ const products = [
     },
     {
         id:3,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cafe Phối Màu',
         types:'polo',
         collection:'cafe',
@@ -410,7 +410,7 @@ const products = [
     },
     {
         id:4,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Coolmax Thoáng Mát Bo Cổ Phối Màu',
         types:'polo',
         collection:'coolmax',
@@ -438,7 +438,7 @@ const products = [
     },
     {
         id:5,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức',
         types:'polo',
         collection:'vo-hau',
@@ -457,7 +457,7 @@ const products = [
     },
     {
         id:6,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cafe Phối Bo Chống Tia UV',
         types:'polo',
         collection:'cafe',
@@ -485,7 +485,7 @@ const products = [
     },
     {
         id:7,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Tay Ngắn Pique Mắt Chim Phối Bo Thoáng Khí',
         types:'polo',
         collection:'mat-chim',
@@ -513,7 +513,7 @@ const products = [
     },
     {
         id:8,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức ',
         types:'polo',
         collection:'vo-hau',
@@ -532,7 +532,7 @@ const products = [
     },
     {
         id:9,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Mắt Chim Dáng Suông Họa Tiết Mỏ Neo',
         types:'polo',
         collection:'mat-chim',
@@ -561,7 +561,7 @@ const products = [
     },
     {
         id:10,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Trắng',
         types:'polo',
         collection:'askin',
@@ -580,7 +580,7 @@ const products = [
     },
     {
         id:11,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Vàng',
         types:'polo',
         collection:'askin',
@@ -599,7 +599,7 @@ const products = [
     },
     {
         id:12,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Askin Bo Trơn Xanh Đậm',
         types:'polo',
         collection:'askin',
@@ -618,7 +618,7 @@ const products = [
     },
     {
         id:13,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airycool Thoáng Khí Thấm Hút Tốt',
         types:'polo',
         collection:'airycool',
@@ -646,7 +646,7 @@ const products = [
     },
     {
         id:14,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airycool Giữ Form Thoáng Mát',
         types:'polo',
         collection:'airycool',
@@ -674,7 +674,7 @@ const products = [
     },
     {
         id:15,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airycool Thoáng Khí Thấm Hút Tốt',
         types:'polo',
         collection:'airycool',
@@ -702,7 +702,7 @@ const products = [
     },
     {
         id:16,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airycool Giữ Form Thoáng Mát',
         types:'polo',
         collection:'airycool',
@@ -730,7 +730,7 @@ const products = [
     }, 
     {
         id:17,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Coolmax Lacoste',
         types:'polo',
         collection:'airycool',
@@ -758,7 +758,7 @@ const products = [
     },
     {
         id:18,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Đỏ',
         types:'polo',
         collection:'compact',
@@ -777,7 +777,7 @@ const products = [
     },
     {
         id:19,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Đỏ',
         types:'polo',
         collection:'compact',
@@ -796,7 +796,7 @@ const products = [
     },
     {
         id:20,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Mắt Chim Dáng Suông Họa Tiết Mỏ Neo',
         types:'polo',
         collection:'mat-chim',
@@ -824,7 +824,7 @@ const products = [
     },
     {
         id:21,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cafe Phối Tay Raglan Ngực In Gấu',
         types:'polo',
         collection:'cafe',
@@ -852,7 +852,7 @@ const products = [
     },
     {
         id:22,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cafe Phối Tay Raglan Ngực In Gấu',
         types:'polo',
         collection:'cafe',
@@ -882,7 +882,7 @@ const products = [
     },
     {
         id:23,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cafe Dệt Mắt Xích Khử Mùi Vượt Trội',
         types:'polo',
         collection:'cafe',
@@ -910,7 +910,7 @@ const products = [
     },
     {
         id:24,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cafe Dáng Suông Chống Tia UV',
         types:'polo',
         collection:'cafe',
@@ -938,7 +938,7 @@ const products = [
     },
     {
         id:25,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cafe Dáng Suông Chống Tia UV',
         types:'polo',
         collection:'cafe',
@@ -968,7 +968,7 @@ const products = [
     },
     {
         id:26,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cafe Thể Thao Phối Vai',
         types:'polo',
         collection:'cafe',
@@ -996,7 +996,7 @@ const products = [
     },
     {
         id:27,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cafe Phối Màu Khử Mùi Chống Tia UV',
         types:'polo',
         collection:'cafe',
@@ -1024,7 +1024,7 @@ const products = [
     },
     {
         id:28,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Mắt Chim Thấm Hút Tốt',
         types:'polo',
         collection:'mat-chim',
@@ -1053,7 +1053,7 @@ const products = [
     },
     {
         id:29,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Mắt Chim Thấm Hút Tốt',
         types:'polo',
         collection:'mat-chim',
@@ -1081,7 +1081,7 @@ const products = [
     },
     {
         id:30,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Pique Mắt Chim In Hình Thỏ',
         types:'polo',
         collection:'mat-chim',
@@ -1109,7 +1109,7 @@ const products = [
     },
     {
         id:31,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Mắt Chim Melange Phối Nẹp',
         types:'polo',
         collection:'mat-chim',
@@ -1138,7 +1138,7 @@ const products = [
     },
     {
         id:32,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Mắt Chim Melange Phối Nẹp',
         types:'polo',
         collection:'mat-chim',
@@ -1167,7 +1167,7 @@ const products = [
     },
     {
         id:33,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Pique Mắt Chim Thêu Ngực',
         types:'polo',
         collection:'mat-chim',
@@ -1196,7 +1196,7 @@ const products = [
     },
     {
         id:34,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Coolmax Lacoste',
         types:'polo',
         collection:'coolmax',
@@ -1224,7 +1224,7 @@ const products = [
     },
     {
         id:35,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Coolmax Phối Bo Kẻ',
         types:'polo',
         collection:'coolmax',
@@ -1252,7 +1252,7 @@ const products = [
     },
     {
         id:36,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Coolmax Phối Ngực',
         types:'polo',
         collection:'coolmax',
@@ -1280,7 +1280,7 @@ const products = [
     },
     {
         id:37,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Coolmax Phối Vai',
         types:'polo',
         collection:'coolmax',
@@ -1308,7 +1308,7 @@ const products = [
     },
     {
         id:38,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Ngắn Tay Slimfit Coolmax',
         types:'polo',
         collection:'coolmax',
@@ -1327,7 +1327,7 @@ const products = [
     },
     {
         id:39,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Phối Bo Coolmax Thoáng Mát',
         types:'polo',
         collection:'coolmax',
@@ -1355,7 +1355,7 @@ const products = [
     },
     {
         id:40,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Coolmax Ngắn Tay Phối Bo',
         types:'polo',
         collection:'coolmax',
@@ -1384,7 +1384,7 @@ const products = [
     },
     {
         id:41,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Coolmax Phối Bo',
         types:'polo',
         collection:'coolmax',
@@ -1413,7 +1413,7 @@ const products = [
     },
      {
         id:42,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airycool Bo Kẻ',
         types:'polo',
         collection:'airycool',
@@ -1441,7 +1441,7 @@ const products = [
     },
     {
         id:43,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airycool Bo Kẻ',
         types:'polo',
         collection:'airycool',
@@ -1469,7 +1469,7 @@ const products = [
     },
     {
         id:44,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Tàn Đậm',
         types:'polo',
         collection:'vo-hau',
@@ -1488,7 +1488,7 @@ const products = [
     },
     {
         id:45,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Navy',
         types:'polo',
         collection:'vo-hau',
@@ -1507,7 +1507,7 @@ const products = [
     },
     {
         id:46,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh Biển',
         types:'polo',
         collection:'vo-hau',
@@ -1526,7 +1526,7 @@ const products = [
     },
     {
         id:47,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Navy',
         types:'polo',
         collection:'vo-hau',
@@ -1545,7 +1545,7 @@ const products = [
     },
     {
         id:48,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Xanh lá',
          types:'polo',
         collection:'vo-hau',
@@ -1564,7 +1564,7 @@ const products = [
     },
     {
         id:49,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Xám',
          types:'polo',
         collection:'vo-hau',
@@ -1583,7 +1583,7 @@ const products = [
     },
     {
         id:50,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Vải Vỏ Hàu Cổ Đức - Vàng',
          types:'polo',
         collection:'vo-hau',
@@ -1602,7 +1602,7 @@ const products = [
     },
     {
         id:51,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Trắng',
          types:'polo',
         collection:'vo-hau',
@@ -1621,7 +1621,7 @@ const products = [
     },
     {
         id:52,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Dương',
         types:'polo',
         collection:'compact',
@@ -1640,7 +1640,7 @@ const products = [
     },
     {
         id:53,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Ngọc',
         types:'polo',
         collection:'compact',
@@ -1659,7 +1659,7 @@ const products = [
     },
     {
         id:54,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh Đen',
         types:'polo',
         collection:'compact',
@@ -1678,7 +1678,7 @@ const products = [
     },
     {
         id:55,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Ngọc',
         types:'polo',
         collection:'compact',
@@ -1697,7 +1697,7 @@ const products = [
     },
     {
         id:56,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Dương',
         types:'polo',
         collection:'compact',
@@ -1716,7 +1716,7 @@ const products = [
     },
     {
         id:57,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Be',
         types:'polo',
         collection:'compact',
@@ -1735,7 +1735,7 @@ const products = [
     },
     {
         id:58,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Cool Compact Siêu Nhẹ - Xanh Đen',
         types:'polo',
         collection:'compact',
@@ -1754,7 +1754,7 @@ const products = [
     },
     {
         id:59,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Đỏ',
         types:'polo',
         collection:'compact',
@@ -1772,7 +1772,7 @@ const products = [
     },
     {
         id:60,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Cool Compact Siêu Nhẹ - Xanh biển đậm',
         types:'polo',
         collection:'compact',
@@ -1791,7 +1791,7 @@ const products = [
     },
     {
         id:61,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airmax In Ngực - Trắng',
          types:'polo',
         collection:'airmax',
@@ -1810,7 +1810,7 @@ const products = [
     },
     {
         id:62,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airmax In Ngực - Hồng',
          types:'polo',
         collection:'airmax',
@@ -1829,7 +1829,7 @@ const products = [
     },
     {
         id:63,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airmax In Ngực - Be',
          types:'polo',
         collection:'airmax',
@@ -1848,7 +1848,7 @@ const products = [
     },
     {
         id:64,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Polo Nam Airmax In Ngực - Đen',
          types:'polo',
         collection:'airmax',
@@ -1867,7 +1867,7 @@ const products = [
     },
     {
         id:65,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airmax In Ngực - Trắng',
          types:'polo',
         collection:'airmax',
@@ -1886,7 +1886,7 @@ const products = [
     },
     {
         id:66,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airmax In Ngực - Hồng',
          types:'polo',
         collection:'airmax',
@@ -1905,7 +1905,7 @@ const products = [
     },
     {
         id:67,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airmax In Ngực - Be',
          types:'polo',
         collection:'airmax',
@@ -1924,7 +1924,7 @@ const products = [
     },
     {
         id:68,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Polo Nữ Airmax In Ngực - Đen',
          types:'polo',
         collection:'airmax',
@@ -1943,7 +1943,7 @@ const products = [
     },
     {
         id:69,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Suông Đen Trơn',
          types:'jean',
         collection:'airmax',
@@ -1962,7 +1962,7 @@ const products = [
     },
     {
         id:70,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Suông Co Giãn Thoáng Mát',
          types:'jean',
         collection:'airmax',
@@ -1981,7 +1981,7 @@ const products = [
     },
     {
         id:71,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Suông Xám',
          types:'jean',
         collection:'cafe',
@@ -2000,7 +2000,7 @@ const products = [
     },
     {
         id:72,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Cotton USA SlimFit Bền Màu',
          types:'jean',
         collection:'cafe',
@@ -2019,7 +2019,7 @@ const products = [
     },
     {
         id:73,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Suông Xước Nhẹ',
          types:'jean',
         collection:'coolmax',
@@ -2038,7 +2038,7 @@ const products = [
     },
     {
         id:74,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Đứng Năng Động',
          types:'jean',
         collection:'coolmax',
@@ -2057,7 +2057,7 @@ const products = [
     },
     {
         id:75,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Slimfit Tối Màu Co Giãn',
          types:'jean',
         collection:'airycool',
@@ -2076,7 +2076,7 @@ const products = [
     },
     {
         id:76,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Cotton USA Ống Suông Co Giãn Tốt',
          types:'jean',
         collection:'airycool',
@@ -2095,7 +2095,7 @@ const products = [
     },
     {
         id:77,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Ống Đứng Slimfit Basic',
          types:'jean',
         collection:'vo-hau',
@@ -2114,7 +2114,7 @@ const products = [
     },
     {
         id:78,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Jean Nam Slim Fit Lycra Siêu Co Giãn',
          types:'jean',
         collection:'vo-hau',
@@ -2133,7 +2133,7 @@ const products = [
     },
     {
         id:79,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Tây Nam Ống Đứng Classic Lịch Lãm',
          types:'eu',
         collection:'askin',
@@ -2152,7 +2152,7 @@ const products = [
     },
     {
         id:80,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Tây Nam Nano Công Sở Trẻ Trung',
          types:'eu',
         collection:'askin',
@@ -2171,7 +2171,7 @@ const products = [
     },
     {
         id:81,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Tây Nam Nano Ống Đứng Thời Trang',
          types:'eu',
         collection:'askin',
@@ -2189,7 +2189,7 @@ const products = [
         hot : true
     },{
         id:82,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Âu Nam Vải Nano Cao Cấp Giữ Phom, Co Giãn Thoải Mái',
          types:'eu',
         collection:'askin',
@@ -2208,7 +2208,7 @@ const products = [
     },
     {
         id:83,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Âu Nam Classic Bổ Túi Sườn',
          types:'eu',
         collection:'cafe',
@@ -2227,7 +2227,7 @@ const products = [
     },
     {
         id:84,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Âu Nam Ống Đứng Vải Nano Melange Giữ Phom Ít Nhăn',
         types:'eu',
         collection:'cafe',
@@ -2246,7 +2246,7 @@ const products = [
     },
     {
         id:85,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Âu Nam Ống Đứng Vải Nano Cao Cấp Giữ Phom, Co Giãn Thoải Mái',
          types:'eu',
         collection:'coolmax',
@@ -2265,7 +2265,7 @@ const products = [
     },
     {
         id:86,
-        gerder:'nam',
+        gender:'nam',
         name:'Quần Tây Nam Công Sở Ống Ôm',
          types:'eu',
         collection:'coolmax',
@@ -2284,7 +2284,7 @@ const products = [
     },
     {
         id:87,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Baggy Co Giãn Cạp Liền',
          types:'jean',
         collection:'airycool',
@@ -2303,7 +2303,7 @@ const products = [
     },
     {
         id:88,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Lưng Thấp Dáng Skinny',
          types:'jean',
         collection:'airycool',
@@ -2322,7 +2322,7 @@ const products = [
     },
     {
         id:89,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Baggy Nữ 9 Tấc',
          types:'jean',
         collection:'vo-hau',
@@ -2341,7 +2341,7 @@ const products = [
     },
     {
         id:90,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Ôm Lưng Thấp',
          types:'jean',
         collection:'vo-hau',
@@ -2360,7 +2360,7 @@ const products = [
     },
     {
         id:91,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jeans Nữ Dáng Skinny Thêu Túi',
          types:'jean',
         collection:'compact',
@@ -2379,7 +2379,7 @@ const products = [
     },
     {
         id:92,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Lưng Cao Chiết Ly Gấu',
          types:'jean',
         collection:'compact',
@@ -2398,7 +2398,7 @@ const products = [
     },
     {
         id:93,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Dáng Boy Lưng Thấp Vải Mềm Thoáng Khí',
          types:'jean',
         collection:'airmax',
@@ -2417,7 +2417,7 @@ const products = [
     },
     {
         id:94,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Lưng Cao Ống Rộng Tôn Dáng Bền Màu',
          types:'jean',
         collection:'airmax',
@@ -2436,7 +2436,7 @@ const products = [
     },
     {
         id:95,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Baggy Lưng Cao Chiết Ly Gấu',
         types:'jean',
         collection:'askin',
@@ -2455,7 +2455,7 @@ const products = [
     },
     {
         id:96,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Jean Nữ Ống Suông Xanh Nhạt',
          types:'jean',
         collection:'askin',
@@ -2474,7 +2474,7 @@ const products = [
     },
     {
         id:97,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Âu Nữ Cạp Cao Ống Rộng Kèm Đai',
          types:'eu',
         collection:'askin',
@@ -2493,7 +2493,7 @@ const products = [
     },
     {
         id:98,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Âu Nữ Cạp Cao Ống Rộng',
          types:'eu',
         collection:'askin',
@@ -2512,7 +2512,7 @@ const products = [
     },
     {
         id:99,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Âu Nữ Ống Đứng Thời Trang',
          types:'eu',
         collection:'cafe',
@@ -2531,7 +2531,7 @@ const products = [
     },
     {
         id:100,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Ống Rộng Lưng Cao Xẻ Gấu',
          types:'eu',
         collection:'cafe',
@@ -2550,7 +2550,7 @@ const products = [
     },
     {
         id:101,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Baggy Công Sở Cạp Cao',
          types:'eu',
         collection:'mat-chim',
@@ -2569,7 +2569,7 @@ const products = [
     },
     {
         id:102,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Lưng Cao Đai Vuông',
          types:'eu',
         collection:'mat-chim',
@@ -2588,7 +2588,7 @@ const products = [
     },
     {
         id:103,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Ống Rộng Xẻ Tà Thời Trang',
          types:'eu',
         collection:'coolmax',
@@ -2607,7 +2607,7 @@ const products = [
     },
     {
         id:104,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Baggy Đai Phối Chun',
          types:'eu',
         collection:'coolmax',
@@ -2626,7 +2626,7 @@ const products = [
     },
     {
         id:105,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Ống Đứng Công Sở Tôn Dáng',
          types:'eu',
         collection:'airycool',
@@ -2645,7 +2645,7 @@ const products = [
     },
     {
         id:106,
-        gerder:'nu',
+        gender:'nu',
         name:'Quần Tây Nữ Lưng Cao Thắt Đai Eo',
          types:'eu',
         collection:'airycool',
@@ -2664,7 +2664,7 @@ const products = [
     },
     {
         id:107,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Suông Cotton Compact In Gấu',
         types:'t-shirt',
         collection:'compact',
@@ -2682,7 +2682,7 @@ const products = [
     },
     {
         id:108,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Thể Thao In Hình Work Out',
         types:'t-shirt',
         collection:'workout',
@@ -2700,7 +2700,7 @@ const products = [
     },
     {
         id:109,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Form Rộng Cotton Compact In Club',
         types:'t-shirt',
         collection:'compact',
@@ -2718,7 +2718,7 @@ const products = [
     },
     {
         id:110,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Form Rộng In Chữ Comfortable',
         types:'t-shirt',
         collection:'askin',
@@ -2736,7 +2736,7 @@ const products = [
     },
     {
         id:111,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Thể Thao Logo In Phản Quang',
         types:'t-shirt',
         collection:'workout',
@@ -2754,7 +2754,7 @@ const products = [
     },
     {
         id:112,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Cotton Dáng Suông Newspaper',
         types:'t-shirt',
         collection:'coolmax',
@@ -2772,7 +2772,7 @@ const products = [
     },
     {
         id:113,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Cổ Tròn Dáng Suông Classic',
         types:'t-shirt',
         collection:'airycool',
@@ -2790,7 +2790,7 @@ const products = [
     },
     {
         id:114,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Cotton USA Thoáng Mát In PLEASE',
         types:'t-shirt',
         collection:'mat-chim',
@@ -2808,7 +2808,7 @@ const products = [
     },
     {
         id:115,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Cotton USA In Chữ Stay Positive',
         types:'t-shirt',
         collection:'cafe',
@@ -2826,7 +2826,7 @@ const products = [
     },
     {
         id:116,
-        gerder:'nam',
+        gender:'nam',
         name:'Áo Thun Nam Cotton Phi Hành Gia',
         types:'t-shirt',
         collection:'vo-hau',
@@ -2844,7 +2844,7 @@ const products = [
     },
     {
         id:117,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Cotton Cổ Tròn In Chữ Ski Resort',
         types:'t-shirt',
         collection:'vo-hau',
@@ -2862,7 +2862,7 @@ const products = [
     },
     {
         id:118,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Cổ Tròn In Chữ Tay Lơ Vê',
         types:'t-shirt',
         collection:'askin',
@@ -2880,7 +2880,7 @@ const products = [
     },
     {
         id:119,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Cotton Tay Lơ Vê Phối Túi Cách Điệu',
         types:'t-shirt',
         collection:'vo-hau',
@@ -2898,7 +2898,7 @@ const products = [
     },
     {
         id:120,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Form Rộng In Chữ Comfortable',
         types:'t-shirt',
         collection:'coolmax',
@@ -2916,7 +2916,7 @@ const products = [
     },
     {
         id:121,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Vissco Dáng Ôm Siêu Co Giãn',
         types:'t-shirt',
         collection:'compact',
@@ -2934,7 +2934,7 @@ const products = [
     },
     {
         id:122,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Phông Nữ Cotton Dáng Suông In Family',
         types:'t-shirt',
         collection:'airmax',
@@ -2952,7 +2952,7 @@ const products = [
     },
     {
         id:123,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Cotton Cổ Tròn In Peach',
         types:'t-shirt',
         collection:'coolmax',
@@ -2970,7 +2970,7 @@ const products = [
     },
     {
         id:124,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Suông Cổ Tròn In Chữ Mine',
         types:'t-shirt',
         collection:'askin',
@@ -2988,7 +2988,7 @@ const products = [
     },
     {
         id:125,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Vải Iscra Siêu Mềm Mịn',
         types:'t-shirt',
         collection:'vo-hau',
@@ -3006,7 +3006,7 @@ const products = [
     },
     {
         id:126,
-        gerder:'nu',
+        gender:'nu',
         name:'Áo Thun Nữ Cotton Cổ Tròn Style',
         types:'t-shirt',
         collection:'compact',

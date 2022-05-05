@@ -13,12 +13,12 @@ import ProductsGrid from "../components/ProductsGrid";
     switch (category) {
       case 'nam':
         newProducts  = products.filter( product => {
-                return product.gerder === 'nam'
+                return product.gender === 'nam'
               })
         break;
         case 'nu':
           newProducts  = products.filter( product => {
-                return product.gerder === 'nu'
+                return product.gender === 'nu'
               })
       break;
       default:

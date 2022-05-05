@@ -35,6 +35,7 @@ const ProductsGrid = (props) => {
       }
     }
   }, [products,category,categoryState.productCategory,btnState,changeCollections]);
+
   return (
     <div className="products-grid-wrapper">
       <div className="container">
@@ -52,7 +53,7 @@ const ProductsGrid = (props) => {
             : null}
         </div>
         <div className="btns">
-        <Link to={`/collections/${category === undefined ? changeCollections[btnState] : categoryState.productCategory}`}><Button className='more-btn'>Xem thêm</Button></Link>
+        <Link to={`/collections/${category === undefined ? btnState === 'typeCollection' ? `${changeCollections[btnState]}-ao` : `${changeCollections[btnState]}-quan` : `${categoryState.productCategory}-${category}`}`}><Button className='more-btn'>Xem thêm</Button></Link>
         </div>
       </div>
     </div>
