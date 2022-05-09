@@ -50,7 +50,6 @@ const CollectionProductsGrid = (props) => {
                 id="collection__sort"
                 value = {productsSort}
                 onChange={(e) => {
-                    console.log(e.target.value)
                     setProducts(null)
                     setProductsSort(e.target.value)}}
               >
